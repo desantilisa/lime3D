@@ -13,6 +13,7 @@ import math
 import sklearn
 from sklearn.utils import check_random_state
 from tqdm.auto import tqdm
+import lime
 from lime import lime_base, lime_image
 from lime.lime_image import LimeImageExplainer, ImageExplanation
 from lime.segmentation3D import segmentation3D_atlas
